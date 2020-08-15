@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-content{
+  padding: 20px 0 0 20px;
+}
+
+/* 上外20px、上下内30px余白　横840px　ボックス中央揃え !上下枠線*/
+main{
+width: 840px;
+margin: 0 auto;
+}
+
+.box{
+  width: 840px;
+  margin: 20px 0 50px 0;
+}
+
+
+.box-child{
+  width: 840px;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 30px 0;
+
+
+}
