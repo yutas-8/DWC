@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list-content{
+  display: flex;
+  justify-content: center;
+}
+
+.list-content-item{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-text{
+  width: 100%;
+  list-style: none;
+  padding: 20px;
+}
+
+.list-text:nth-child(odd){
+  background-color: rgba(214,214,214,0.5);
+}
+
+/* 4・5・6番目上下外40px */
+.box-compile{
+  display: flex;
+  justify-content: center;
+}
+
+.box-content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  margin-bottom: 50px;
+}
+
+.box{
+width: 30%;
+height: 200px;
+background-color: rgb(255, 208, 0);
+}
+
+.box:nth-child(1){
+  background-color: rgb(255, 123, 0);
+}
+.box:nth-child(2){
+margin: 0 5% 0;
+}
+.box:nth-child(4){
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.box:nth-child(5){
+  background-color: rgb(255, 123, 0);
+  margin: 0 5% 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.box:nth-child(6){
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.box:nth-child(8){
+  margin: 0 5% 0;
+
+}
+.box:nth-child(9){
+  background-color: rgb(255, 123, 0);
+}
