@@ -30,7 +30,7 @@ main{
 
 .step{
   background-color: #ff9a4b;
-  display: inline-block;
+  padding: 3px;
   color: #fff;
   position: absolute;
   top: 0px;
@@ -47,10 +47,6 @@ main{
 
 .box-title{
   margin-bottom: 5px;
-}
-
-.box-text{
-  font-size: 12px;
 }
 
 .box-img2{
