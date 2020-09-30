@@ -38,6 +38,10 @@ header{
   color: #fafafa;
 }
 
+a{
+  text-decoration:none;
+}
+
 #mv{
   width: 100%;
   height: 650px;
@@ -85,7 +89,7 @@ header{
   margin:0 auto;
 }
 
-/* float　復習 */
+/* float　cover 復習 */
 .production{
   float:left;
   width:300px;
@@ -133,4 +137,266 @@ header{
   content:"";
   display:block;
   clear:both;
+}
+
+#feature{
+/*   background-size:cover; */
+/*   background-position:center; */
+}
+
+
+.strength-group{
+  width:980px;
+  padding:30px 0 90px 0;
+  margin:0 auto;
+}
+/* 復習 */
+.strength{
+  float:left;
+  width:320px;
+  margin-right:10px;
+  text-align:center;
+  font-size:60px;
+}
+
+/* 復習 */
+.fa{
+  display:inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  textrendering:auto;
+}
+
+.strength-title{
+  padding:10px 0;
+  font-size:20px;
+}
+
+.strength-text{
+  font-size:16px;
+  text-align:left;
+}
+
+/* 復習 */
+.strength:last-child{
+  margin-right:0;
+}
+
+#profile{
+  background-color:#eceff1;
+}
+
+.profile-group{
+  padding:30px 0 90px 0;
+}
+
+.left-content{
+  width:50%;
+  float:left;
+}
+
+/* 復習 */
+.my-face{
+  width:250px;
+  height:250px;
+  margin:0 auto;
+  border-radius:50%;
+  background-image:url(img/my-icon.jpg);
+}
+
+.right-content{
+  width:50%;
+  float:right;
+}
+
+.discription-title{
+  margin:20px 0 5px 0;
+  font-size:20px;
+}
+
+.discription-title:first-child{
+  margin-top:0;
+}
+
+.discription-text{
+  font-size:16px;
+}
+
+.contact-group{
+  width:800px;
+  padding:30px 0 90px 0;
+  margin:0 auto;
+}
+
+.left-contact-content{
+  width:130px;
+  margin:0 auto;
+}
+
+.link-text{
+  text-decoration:underline;
+  color:#212121;
+}
+
+.right-contact-content{
+  width:190px;
+  margin:0 auto;
+}
+
+.right-contact-content .fab{
+  font-size:50px;
+  margin-right:20px;
+}
+
+.right-contact-content .fab:last-child{
+  margin-right:0;
+}
+
+.copyright{
+  font-size:16px;
+  color:#fafafa;
+  text-align:center;
+}
+
+footer{
+  width:100%;
+  height:60px;
+  background-color:#ec715f;
+  line-height:60px;
+}
+
+@media screen and (max-width: 768px){
+  header{
+    height;50px;
+  }
+
+  .container{
+    width:90%;
+  }
+
+  .logo{
+    float:none;
+    height:50px;
+  }
+/* 復習　ハンバーガー */
+  .menu-box{
+    float:right;
+    width:40px;
+    height:40px;
+    margin-right:5%;
+    border:1px solid #fafafa;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+
+  .list-bar{
+    display:block;
+    width:25px;
+    height:2px;
+    margin:5px auto;
+    background-color:#fafafa;
+  }
+
+  .list-bar:first-child{
+    margin-top:10px;
+  }
+
+  .nav{
+    float:none;
+  }
+
+  .nav-list{
+    display:none;
+    float:none;
+    width:100%;
+    line-height:50px;
+    border-bottom:1px solid gray;
+    text-align:center;
+    background-color:rgba(0,0,0,.9);
+  }
+
+  .nav-list:last-child{
+    border:none;
+  }
+
+  #mv{
+    background-image:url(img/code.png)
+  }
+
+  .mv-title{
+    font-size:40px;
+  }
+
+  mv-text{
+    font-size:18px;
+  }
+
+  #portfolio{
+    padding:0 5%;
+  }
+
+  .production-group{
+    width:300px;
+  }
+
+  .sp-none{
+    display:none;
+  }
+
+  #feature{
+    padding:0 5%;
+    background-size:cover;
+    background-position:center;
+  }
+
+  .strength-group{
+    width:320px;
+  }
+
+  .strength{
+    float:none;
+    margin-top:10px;
+  }
+
+  .strength:first-child{
+    margin-top:0;
+  }
+
+  #profile{
+    padding:0 5%;
+  }
+
+  .profile-group{
+    text-align:center;
+  }
+
+  .left-content{
+    float:none;
+    width:100%;
+  }
+
+  .right-content{
+    float:none;
+    width:100%;
+  }
+
+  .discription-title:first-child{
+    margin-top:20px;
+  }
+
+  #content{
+    padding:0 5%;
+  }
+
+  .contact-group{
+    width:100%;
+    text-align:center;
+  }
+
+  .right-contact-content .fab{
+    font-size:50px;
+    margin-right:8px;
+  }
+
+  
 }
