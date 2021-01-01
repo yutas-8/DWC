@@ -1,0 +1,39 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: red;
+}
+
+.orange {
+  height: 500px;
+  width: 100%;
+  background-color: orange;
+}
+
+.main {
+  height: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.palegreen {
+  width: 230px;
+  background-color: palegreen;
+}
+
+.green {
+  width: 500px;
+  background-color: green;
+}
+
+footer {
+  height: 100px;
+  background-color: blue;
+}
