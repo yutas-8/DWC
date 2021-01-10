@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+}
+
+.header-set{
+  padding: 30px 20px;
+  background-color: #ff00ff;
+}
