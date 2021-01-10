@@ -61,7 +61,7 @@ footer{
   padding: 20px;
   background-color: #6495ed;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
